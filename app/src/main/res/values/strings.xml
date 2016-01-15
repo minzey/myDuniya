@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">myDuniya</string>
+    <string name="facebook_app_id">441324126070410</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="title_activity_detail">DetailActivity</string>
+    <string name="title_activity_pick_place">PickPlace</string>
+    <string name="title_activity_search_results">SearchResultsActivity</string>
+    <string name="title_activity_twitter">TwitterActivity</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_name">Fullname</string>
+    <string name="btn_login">LOGIN</string>
+    <string name="btn_register">REGISTER</string>
+    <string name="btn_link_to_register">Not a member? Sign up now.</string>
+    <string name="btn_link_to_login">Already registred! Login Me.</string>
+    <string name="welcome">Welcome</string>
+    <string name="btn_logout">LOGOUT</string>
+    <string name="name">Fullname</string>
+    <string name="title_activity_recommended_detail">RecommendedDetail</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_fragment_drawer">FragmentDrawer</string>
+    <string name="title_activity_special">SpecialActivity</string>
+    <string name="title_activity_special_detail">SpecialDetail</string>
+    <string name="title_activity_testfacebooklogin">testfacebooklogin</string>
+    <string name="title_activity_preferences">PreferencesActivity</string>
+    <string name="title_activity_category_news">CategoryNews</string>
+
+</resources>

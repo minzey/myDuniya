@@ -1,0 +1,86 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.swati.myduniya.PickPlace">
+    <ImageView
+        android:id="@+id/bckgrndImage"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        style="@style/BackGroundImageView"
+        android:scaleType="centerCrop"
+        android:src="@drawable/pickplace" />
+
+
+    <TextView android:id="@+id/txtName"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="5dp"
+        android:paddingLeft="@dimen/feed_item_status_pad_left_right"
+        android:paddingRight="@dimen/feed_item_status_pad_left_right"
+        android:paddingTop="@dimen/feed_item_status_pad_top"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textColor="#FF6600"/>
+    <TextView
+        android:id="@+id/txtAddress"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textColor="#000000"
+        android:paddingBottom="10dp"
+        android:paddingLeft="@dimen/feed_item_status_pad_left_right"
+        android:paddingRight="@dimen/feed_item_status_pad_left_right"
+        android:layout_below="@+id/txtName"
+    ></TextView>
+    <TextView
+        android:id="@+id/txtPhone"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:paddingBottom="10dp"
+        android:textColor="#000000"
+        android:paddingLeft="@dimen/feed_item_status_pad_left_right"
+        android:paddingRight="@dimen/feed_item_status_pad_left_right"
+        android:layout_below="@+id/txtAddress"
+        ></TextView>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pick a Place"
+        android:id="@+id/pbutton"
+        android:layout_alignBottom="@+id/bckgrndImage"
+
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="105dp" />
+
+    <TextView
+        android:id="@+id/txtguide"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:paddingTop="10dp"
+        android:text="Click to retrieve details of nearby places."
+        android:layout_alignBottom="@+id/bckgrndImage"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:textColor="#000000"
+
+        android:layout_marginBottom="75dp"
+        ></TextView>
+
+
+    <ImageView
+        android:id="@+id/loctionImage"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+
+        android:scaleType="centerInside"
+
+        android:layout_centerHorizontal="true"
+        android:layout_above="@id/pbutton"
+        android:paddingBottom="5dp"
+        android:src="@drawable/pick_location" />
+
+
+</RelativeLayout>

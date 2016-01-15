@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:background="#000000" >
+
+<ViewFlipper
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/bckgrndViewFlipper1">
+
+    <ImageView
+        android:id="@+id/bckgrndImageView4"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        style="@style/BackGroundImageView"
+        android:scaleType="centerCrop"
+        android:src="@drawable/loginbg2" />
+    <ImageView
+        style="@style/BackGroundImageView"
+        android:id="@+id/bckgrndImageView5"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+
+        android:scaleType="centerCrop"
+        android:src="@drawable/loginback1" />
+
+    <ImageView
+        android:id="@+id/bckgrndImageView3"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        style="@style/BackGroundImageView"
+        android:scaleType="centerCrop"
+        android:src="@drawable/loginbg4" />
+    <ImageView
+        android:id="@+id/bckgrndImageView7"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        style="@style/BackGroundImageView"
+        android:scaleType="centerCrop"
+        android:src="@drawable/loginbg6" />
+
+
+</ViewFlipper>
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="10dp"
+>
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp" >
+
+        <!-- Email Label -->
+        <EditText
+            android:id="@+id/email"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:background="#ffffff"
+            android:hint="Email"
+            android:inputType="textEmailAddress"
+            android:padding="10dp"
+            android:singleLine="true"
+            android:textColor="#222222"
+            android:textColorHint="#999999" />
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:background="#ffffff"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:padding="10dp"
+            android:singleLine="true"
+            android:textColor="#222222"
+            android:textColorHint="#999999" /><!-- Login Button -->
+
+        <Button
+            android:id="@+id/btnLogin"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dip"
+            android:background="#eceef1"
+            android:text="LOGIN"
+            android:textColor="#26ae90" />
+        <com.facebook.login.widget.LoginButton
+            android:id="@+id/login_button"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="30dp" />
+        <!-- Link to Login Screen -->
+
+        <Button
+            android:id="@+id/btnLinkToRegisterScreen"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dip"
+            android:background="@null"
+            android:text="@string/btn_link_to_register"
+            android:textAllCaps="false"
+            android:textColor="#ffffff"
+            android:textSize="15dp" />
+
+    </LinearLayout>
+
+</LinearLayout>
+    </RelativeLayout>
